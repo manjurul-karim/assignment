@@ -21,7 +21,7 @@ header{
 .title{
     font-size: 25px;
 }
-.title-des{
+.title-des{  
 margin-top: 24px;
 font-size: 15px;
 line-height: 15px;
@@ -36,4 +36,39 @@ line-height: 15px;
     background-color: #F15B22;
     color: #FFFFFF;
     font-size: 20px;
+}
+/* failurs section */
+.my-failures{
+    display: flex;
+    justify-content: center;
+    margin-top: 130px;
+}
+.failures{
+   width: 416px;
+   height: 400px;
+   margin-top: 260px;
+   text-decoration: none;
+   margin-left: 40px;
+}
+.fail-title{
+    font-size: 45px;
+    margin-bottom: 20px;
+    line-height: 47px;
+    font-weight: 700;
+}
+.fail-desc{
+    margin-bottom: 20px;
+    font-size: 15px;
+    padding-right: 15px;
+}
+li{
+    list-style: none;
+}
+.fail-list{
+    color: #bb0d0d;
+    line-height: 1.5;
+    font-size: 18px;
+}
+li{
+list-style-type: '\2713';
 }
