@@ -14,11 +14,13 @@ header{
     text-align: right;
 }
 .main-title{
+    font-family: 'Work Sans', sans-serif;
     margin-top: 216px;
     margin-left: 800px;
     margin-right: 230px;
 }
 .title{
+    
     font-size: 25px;
 }
 .title-des{  
@@ -51,6 +53,7 @@ line-height: 15px;
    margin-left: 40px;
 }
 .fail-title{
+    font-family: 'Work Sans', sans-serif;
     font-size: 45px;
     margin-bottom: 20px;
     line-height: 47px;
@@ -65,10 +68,42 @@ li{
     list-style: none;
 }
 .fail-list{
-    color: #bb0d0d;
     line-height: 1.5;
     font-size: 18px;
 }
 li{
 list-style-type: '\2713';
+}
+/* plans */
+.plans{
+    font-family: 'Work Sans', sans-serif;
+    
+    
+}
+.plans-title{
+    font-size: 40px;
+    margin-top: 130px;
+    margin-left: 46%;
+    
+
+}
+.plan-details{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: 50px;
+
+}
+.single-plan{
+   
+    
+}
+.single-plan-title{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+.single-plan-desc{
+    font-size: 20px;
+    color: #737272;
 }
