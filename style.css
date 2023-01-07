@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+   }
+   /* Header */
+header{
+    background-image: url(/images/banner/banner2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+.main-title{
+    margin-top: 216px;
+    margin-left: 800px;
+    margin-right: 230px;
+}
+.title{
+    font-size: 25px;
+}
+.title-des{
+margin-top: 24px;
+font-size: 15px;
+line-height: 15px;
+}
+.btn-primary{
+    height: 64px;
+    width: 160px;
+    padding: 21px 25px;
+    border: none;
+    margin-top: 25px;
+    border-radius: 5px;
+    background-color: #F15B22;
+    color: #FFFFFF;
+    font-size: 20px;
+}
